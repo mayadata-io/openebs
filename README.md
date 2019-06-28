@@ -8,7 +8,7 @@
 
 http://www.openebs.io/
  
-**OpenEBS** enables the use of containers for mission-critical, persistent workloads. OpenEBS is containerized storage and related storage services.
+**OpenEBS** enables the use of containers for mission-critical, persistent workloads. OpenEBS is containerized storage and related storage services, sometimes called Container Attached Storage.  As of 2019 OpenEBS is a Cloud Native Computing Foundation project.  
  
 **OpenEBS** allows you to treat your persistent workload containers, such as DBs on containers, just like other containers. OpenEBS itself is deployed as just another container on your host and enables storage services that can be designated on a per pod, application, cluster or container level, including:
 - Data persistence across nodes, dramatically reducing time spent rebuilding Cassandra rings for example.
@@ -21,7 +21,7 @@ http://www.openebs.io/
 
 ## Why OpenEBS Scales
  
-OpenEBS can scale to include an arbitrarily large number of containerized storage controllers. Thanks in part to some advancements in the metadata management which remove a common bottleneck to scaling out storage performance. 
+OpenEBS can scale to include an arbitrarily large number of containerized storage controllers.  
 
 ## Installation and Getting Started
  
@@ -42,7 +42,7 @@ You could also follow our [QuickStart Guide](https://docs.openebs.io/docs/overvi
 OpenEBS can be deployed on any Kubernetes cluster - either in cloud, on-premise or developer laptop (minikube). Please follow our [OpenEBS Setup](https://docs.openebs.io/docs/overview.html) documentation. Also, we have a Vagrant environment available that includes a sample Kubernetes deployment and synthetic load that you can use to simulate the performance of OpenEBS. You may also find interesting the related project called Litmus (https://www.openebs.io/litmus) which helps with chaos engineering for stateful workloads on Kubernetes.  
 
 ## Status
-We are approaching beta stage with active development underway. See our [Project Tracker](https://github.com/openebs/openebs/wiki/Project-Tracker) for more details.  Please note that as of June 2018 we have cStor which is about to be released for additional funcitons and somewhat improved performance; please contact us on Slack if you are interested in this engine.  
+We have reached OpenEBS 1.0! Please read more about 1.0 changes and vision here https://openebsblog.mayadata.io/openebs-announces-the-availability-of-version-1.0 
  
 ## Contributing
  
